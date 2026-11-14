@@ -9,7 +9,7 @@ impl Solution {
                     return false;
                 }
                 left += 1;
-                right += 1;
+                right -= 1;
             }
             true
         }
